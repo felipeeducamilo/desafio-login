@@ -102,3 +102,28 @@ input[type="submit"] {
     margin: 5px auto;
     line-height: 16px;
 }
+
+/*  -------- FIM RIGTH ----------- */
+
+
+/*  -------- INÍCIO PAGINA NOVA CONTA ------- */
+
+input[type="text"] {
+    border: 1px solid var(--black-1);
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.checkbox-accepted {
+    display: flex;
+    margin-top: 5px;
+    width: 300px;
+}
+
+.checkbox-accepted span {
+    padding: 5px;
+}
