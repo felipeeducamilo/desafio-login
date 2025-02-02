@@ -169,6 +169,27 @@ input[type="text"] {
        height: 100vh;
     }
 
+    .img-rigth img{
+        width: 350px;
+        margin: 0 auto;
+    }
+    
+    .rigth div h1 {
+        color: var(--white-1);
+        font-size: 32px;    
+        font-weight: bold;
+        margin: 5px auto;
+        width: 280px;
+    }
+    
+    .rigth div p {
+        color: var(--white-1);
+        font-size: 10px;
+        width: 280px;
+        margin: 5px auto;
+        line-height: 16px;
+    }
+
     /* ---- FIM PAGINA INDEX ----*/
 
     /* ---- INÍCIO PAGINA NOVA-CONTA ----*/
@@ -188,9 +209,8 @@ input[type="text"] {
 
     /* ---- INÍCIO PAGINA INDEX ----*/
     
-   
     .name-box {
-        width: 2500px;
+        width: 250px;
     }
  
     input[type="email"], input[type="password"], 
@@ -199,12 +219,36 @@ input[type="text"] {
     }
 
     .no-account {
-        width: 2500px;
-        margin-bottom: 20px;
+        width: 250px;
     }
 
+    .img-rigth img{
+        width: 350px;
+    }
+    
+    .rigth div h1 {
+      width: 320px;
+    }
+
+    .rigth div p {
+        width: 320px;
+        margin-top: 20px;
+    }
  
     /* ---- FIM PAGINA INDEX ----*/
+
+     /* ---- INÍCIO PAGINA NOVA-CONTA ----*/
+
+    input[type="text"] {
+        width: 250px;
+    }
+
+    .checkbox-accepted {
+        width: 250px;
+    }
+
+    /* ---- INÍCIO PAGINA NOVA-CONTA ----*/
 }
 
+    
 
