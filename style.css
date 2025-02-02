@@ -141,7 +141,7 @@ input[type="text"] {
     /* ---- INÍCIO PAGINA INDEX ----*/
 
     main {
-        height: 200vh;
+        height: 100vh;
         flex-direction: column;
     }
 
