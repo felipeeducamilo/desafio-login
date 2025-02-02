@@ -11,12 +11,16 @@ main {
     width: 100vw;
     height: 100vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 }
 
 /*  -------- INÍCIO LEFT -------- */
 
 .left {
     width: 50%;
+    height: 100%;
     background-color: var(--white-1);
     display: flex;
     flex-direction: column;
@@ -75,11 +79,13 @@ input[type="submit"] {
 /*  -------- INÍCIO RIGTH ------- */
 .rigth {
     width: 50%;
+    height: 100%;
     background-color:var(--blue-1);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 
 .img-rigth img{
@@ -127,3 +133,78 @@ input[type="text"] {
 .checkbox-accepted span {
     padding: 5px;
 }
+
+/* ----- MEDIA QUERIES ----- */
+
+@media (max-width: 750px) {
+
+    /* ---- INÍCIO PAGINA INDEX ----*/
+
+    main {
+        height: 200vh;
+        flex-direction: column;
+    }
+
+    .left  {
+        width: 100vw;
+        height: 100vh; 
+    }
+
+    .name-box {
+        width: 400px;
+    }
+ 
+    input[type="email"], input[type="password"], 
+    input[type="submit"] {
+        width: 400px;
+    }
+
+    .no-account {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .rigth {
+       width: 100vw;
+       height: 100vh;
+    }
+
+    /* ---- FIM PAGINA INDEX ----*/
+
+    /* ---- INÍCIO PAGINA NOVA-CONTA ----*/
+
+    input[type="text"] {
+        width: 400px;
+    }
+
+    .checkbox-accepted {
+        width: 400px;
+    }
+      
+/* ---- FIM PAGINA NOVA-CONTA ----*/
+}
+
+@media (max-width:500px){
+
+    /* ---- INÍCIO PAGINA INDEX ----*/
+    
+   
+    .name-box {
+        width: 2500px;
+    }
+ 
+    input[type="email"], input[type="password"], 
+    input[type="submit"] {
+        width: 250px;
+    }
+
+    .no-account {
+        width: 2500px;
+        margin-bottom: 20px;
+    }
+
+ 
+    /* ---- FIM PAGINA INDEX ----*/
+}
+
+
