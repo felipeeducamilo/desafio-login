@@ -2,8 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", serif;
     --white-1:#ffffff;
     --blue-1:#0056FB;
+    --blue-2:#518dfb;
     --black-1:#000000;
 }
 
@@ -67,6 +69,11 @@ input[type="submit"] {
     color: var(--white-1);
     cursor: pointer;
     border: 0;
+    transition: 0.5s;    
+}
+
+input[type="submit"]:hover {
+    background-color:var(--blue-2);
 }
 
 .no-account {
