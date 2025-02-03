@@ -78,7 +78,7 @@ input[type="submit"]:hover {
 
 .no-account {
     width: 300px;
-    margin-top: 5px;
+    margin-top: -20px;
 }
 
 .no-account span {
